@@ -69,7 +69,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -145,7 +145,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_EF, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -219,7 +219,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_EF, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -300,7 +300,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -376,7 +376,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SR, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -450,7 +450,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SR, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -522,7 +522,7 @@ i = mdl.results.y.test.indices;
 
 %%
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -601,7 +601,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_L, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -675,7 +675,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_L, c_p(5,n)] = BBC_CV(o, f, i);
 %%
 n = 3;
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -756,7 +756,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -832,7 +832,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_E, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -906,7 +906,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_E, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -985,7 +985,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -1061,7 +1061,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SEQ, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -1135,7 +1135,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SEQ, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
