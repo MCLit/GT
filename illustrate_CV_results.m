@@ -69,7 +69,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -145,7 +145,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_EF, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -219,7 +219,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_EF, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -300,7 +300,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -376,7 +376,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SR, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -450,7 +450,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SR, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -522,7 +522,7 @@ i = mdl.results.y.test.indices;
 
 %%
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -601,7 +601,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_L, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -675,7 +675,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_L, c_p(5,n)] = BBC_CV(o, f, i);
 %%
 n = 3;
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -756,7 +756,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -832,7 +832,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_E, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -906,7 +906,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_E, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -985,7 +985,7 @@ i = mdl.results.y.test.indices;
 
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_S_FAC%d.mat', n);
 load(fname)
 mdl = S_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -1061,7 +1061,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SEQ, f_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_F_FAC%d.mat', n);
 load(fname)
 mdl = F_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -1135,7 +1135,7 @@ i = mdl.results.y.test.indices;
 [GLOBAL_SEQ, c_p(5,n)] = BBC_CV(o, f, i);
 
 
-fname = sprintf('/Users/user/conn//bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
+fname = sprintf('/Users/user/Dropbox (The University of Manchester)/PCA for JNeuroimage/Amending_jPCA/3rd revision/bic/mdls_pred_conn/individualdiffs/mdl_J_FAC%d.mat', n);
 load(fname)
 mdl = J_cv_mdl;
 o = mdl.results.y.test.observed;
@@ -1177,6 +1177,7 @@ all_p = [s_p f_p c_p];
 [h, crit_p, adj_ci_cvrg, adj_p]=fdr_bh(all_p,0.05);
 
 %%
+load('cv_results.mat')
 
 colors(1,:) = hex2rgb('e41a1c');
 colors(2,:) = hex2rgb('377eb8');
@@ -1187,7 +1188,7 @@ colors(6,:) = hex2rgb('f781bf');
 
 
 %% Illustrate Executive Function
-
+set(gca,'DefaultTextFontSize',14)
 
 tcl = tiledlayout(1,3,'TileSpacing','Compact','Padding','Compact');
 
@@ -1196,9 +1197,10 @@ nexttile
 
 
 boxplot(EXECUTIVE_FUNCTION_S,'Colors',colors)
-title('Structural')
+title('Structural', 'fontweight','normal')
 ylabel("Coefficient of Determination")
-
+ set(gca,'FontSize',14)
+%
 b = findobj(gca,'Tag','Box');
     patch(get(b(6),'XData'),get(b(6),'YData'),colors(1,:),'FaceAlpha',.5); % connectivity
     %patch(get(b(5),'XData'),get(b(5),'YData'),colors(2,:),'FaceAlpha',.5); % global
@@ -1207,13 +1209,13 @@ b = findobj(gca,'Tag','Box');
     patch(get(b(2),'XData'),get(b(2),'YData'),colors(5,:),'FaceAlpha',.5); % local
     patch(get(b(1),'XData'),get(b(1),'YData'),colors(6,:),'FaceAlpha',.5); % all
     
-%%
+%
 [P,H,STATS] = ranksum(S_conn_EF(:),EXECUTIVE_FUNCTION_S(:, 3)) 
-%%
+%
 [P,H,STATS] = ranksum(S_conn_EF(:),EXECUTIVE_FUNCTION_S(:, 5)) 
-%%
+%
 [P,H,STATS] = ranksum(S_conn_EF(:),EXECUTIVE_FUNCTION_S(:, 6)) 
-%%
+%
     
 hold on
 yt = get(gca, 'YTick');
@@ -1239,7 +1241,8 @@ nexttile
 
 
 boxplot(EXECUTIVE_FUNCTION_F,'Colors',colors)
-title('Functional')
+title('Functional', 'fontweight','normal')
+ set(gca,'FontSize',14)
 
 
 nexttile
@@ -1247,16 +1250,16 @@ nexttile
 
 
 boxplot(EXECUTIVE_FUNCTION_C,'Colors',colors)
-title('Combined')
+title('Combined', 'fontweight','normal')
 
 b = findobj(gca,'Tag','Box');
     patch(get(b(6),'XData'),get(b(6),'YData'),colors(1,:),'FaceAlpha',.5); % connectivity
 
     patch(get(b(1),'XData'),get(b(1),'YData'),colors(6,:),'FaceAlpha',.5); % all
-   %%
+   %
    [P,H,STATS] = ranksum(J_conn_EF(:),EXECUTIVE_FUNCTION_C(:, 6)) 
 
-   %%
+   %
     
     
 hold on
@@ -1267,10 +1270,11 @@ xt = get(gca, 'XTick');
 
     plot(xt([1 6]), [1 1]*max(yt)*1.3, '-k',  mean(xt([1 6]))+0.03, max(yt)*1.35, '*k')
 
+ set(gca,'FontSize',14)
 
 boxes = findobj(gca, 'Tag', 'Box');
 legend(boxes([end 5 4 3 2 1]),'Raw connectivity', 'Global', 'Edge', 'Node', 'Local', 'Global and local','location', 'northeastoutside')
-title(tcl,'Executive Function')
+title(tcl,'Executive Function', 'fontsize', 15, 'fontweight','bold')
 
 
 %% Illustrate Self-regulation
@@ -1284,30 +1288,33 @@ nexttile
 
 
 boxplot(SR_S,'Colors',colors)
-title('Structural')
+title('Structural', 'fontweight','normal')
 ylabel("Coefficient of Determination")
+ set(gca,'FontSize',14)
 
 nexttile
 
 
 
 boxplot(SR_F,'Colors',colors)
-title('Functional')
+title('Functional', 'fontweight','normal')
 
+ set(gca,'FontSize',14)
 
 nexttile
 
 
 
 boxplot(SR_C,'Colors',colors)
-title('Combined')
+title('Combined', 'fontweight','normal')
     
 b = findobj(gca,'Tag','Box');
     patch(get(b(6),'XData'),get(b(6),'YData'),colors(1,:),'FaceAlpha',.5); % connectivity
 
 boxes = findobj(gca, 'Tag', 'Box');
 legend(boxes([end 5 4 3 2 1]),'Raw connectivity', 'Global', 'Edge', 'Node', 'Local', 'Global and local','location', 'northeastoutside')
-title(tcl,'Self-regulation')
+title(tcl,'Self-regulation',  'fontsize', 15, 'fontweight','bold')
+ set(gca,'FontSize',14)
 
 %% Illustrate Langauge
 
@@ -1320,8 +1327,9 @@ nexttile
 
 
 boxplot(L_S,'Colors',colors)
-title('Structural')
+title('Structural', 'fontweight','normal')
 ylabel("Coefficient of Determination")
+ set(gca,'FontSize',14)
 
 b = findobj(gca,'Tag','Box');
     patch(get(b(6),'XData'),get(b(6),'YData'),colors(1,:),'FaceAlpha',.5); % connectivity
@@ -1338,27 +1346,27 @@ yt = get(gca, 'YTick');
 
 axis([xlim    -0.15  max(yt)*1.6])
 xt = get(gca, 'XTick');
-%% y
+% y
 [P,H,STATS] = ranksum(S_conn_L(:),L_S(:, 2)) 
  plot(xt([1 2]), [1 1]*max(yt)*1, '-k',  mean(xt([1 2]))+0.03, max(yt)*1.05, '*k')
 
-%% y
+% y
 [P,H,STATS] = ranksum(S_conn_L(:),L_S(:, 3)) 
  plot(xt([1 3]), [1 1]*max(yt)*1.1, '-k',  mean(xt([1 3]))+0.03, max(yt)*1.15, '*k')
 
-%%  y
+%  y
 [P, H,STATS] = ranksum(S_conn_L(:),L_S(:, 4)) 
  plot(xt([1 4]), [1 1]*max(yt)*1.2, '-k',  mean(xt([1 4]))+0.03, max(yt)*1.25, '*k')
 
-%% y
+% y
 [P,H,STATS] = ranksum(S_conn_L(:),L_S(:, 5)) 
  plot(xt([1 5]), [1 1]*max(yt)*1.3, '-k',  mean(xt([1 5]))+0.03, max(yt)*1.35, '*k')
-%%
+%
  
 [P,H,STATS] = ranksum(S_conn_L(:),L_S(:, 6)) 
  plot(xt([1 6]), [1 1]*max(yt)*1.4, '-k',  mean(xt([1 6]))+0.03, max(yt)*1.45, '*k')
 
-%%
+%
 
 
 nexttile
@@ -1370,18 +1378,19 @@ boxplot(L_F,'Colors',colors)
 b = findobj(gca,'Tag','Box');
     patch(get(b(6),'XData'),get(b(6),'YData'),colors(1,:),'FaceAlpha',.5); % connectivity
     
-title('Functional')
+title('Functional', 'fontweight','normal')
+ set(gca,'FontSize',14)
 
-%%
+
 nexttile
 
 
 
 boxplot(L_C,'Colors',colors)
-title('Combined')
+title('Combined', 'fontweight','normal')
     
 
-%%
+
 
 b = findobj(gca,'Tag','Box');
     patch(get(b(6),'XData'),get(b(6),'YData'),colors(1,:),'FaceAlpha',.5); % connectivity
@@ -1398,30 +1407,32 @@ yt = get(gca, 'YTick');
 
 axis([xlim    -0.15  max(yt)*1.6])
 xt = get(gca, 'XTick');
-%%
+%
 [P,H,STATS] = ranksum(J_conn_L(:),L_C(:, 2)) 
  plot(xt([1 2]), [1 1]*max(yt)*1, '-k',  mean(xt([1 2]))+0.03, max(yt)*1.05, '*k')
 
-%% y
+% y
 [P,H,STATS] = ranksum(J_conn_L(:),L_C(:, 3)) 
  plot(xt([1 3]), [1 1]*max(yt)*1.1, '-k',  mean(xt([1 3]))+0.03, max(yt)*1.15, '*k')
 
-%%  y
+%  y
 [P, H,STATS] = ranksum(J_conn_L(:),L_C(:, 4)) 
  plot(xt([1 4]), [1 1]*max(yt)*1.2, '-k',  mean(xt([1 4]))+0.03, max(yt)*1.25, '*k')
 
-%% y
+% y
 [P,H,STATS] = ranksum(J_conn_L(:),L_C(:, 5)) 
  plot(xt([1 5]), [1 1]*max(yt)*1.3, '-k',  mean(xt([1 5]))+0.03, max(yt)*1.35, '*k')
-%%
+%
  
 [P,H,STATS] = ranksum(J_conn_L(:),L_C(:, 6)) 
  plot(xt([1 6]), [1 1]*max(yt)*1.4, '-k',  mean(xt([1 6]))+0.03, max(yt)*1.45, '*k')
 
-%%
+%
+ set(gca,'FontSize',14)
+
 boxes = findobj(gca, 'Tag', 'Box');
 legend(boxes([end 5 4 3 2 1]),'Raw connectivity', 'Global', 'Edge', 'Node', 'Local', 'Global and local','location', 'northeastoutside')
-title(tcl,'Language')
+title(tcl,'Language',  'fontsize', 15, 'fontweight','bold')
 
 %%
 
@@ -1434,28 +1445,32 @@ nexttile
 
 
 boxplot(E_S,'Colors',colors)
-title('Structural')
+title('Structural', 'fontweight','normal')
 ylabel("Coefficient of Determination")
+ set(gca,'FontSize',14)
 
 nexttile
 
 
 
 boxplot(E_F,'Colors',colors)
-title('Functional')
+title('Functional', 'fontweight','normal')
 
+ set(gca,'FontSize',14)
 
 nexttile
 
 
 
 boxplot(E_C,'Colors',colors)
-title('Combined')
+title('Combined', 'fontweight','normal')
     
 
 boxes = findobj(gca, 'Tag', 'Box');
 legend(boxes([end 5 4 3 2 1]),'Raw connectivity', 'Global', 'Edge', 'Node', 'Local', 'Global and local','location', 'northeastoutside')
-title(tcl,'Encoding')
+ set(gca,'FontSize',14)
+
+title(tcl,'Encoding',  'fontsize', 15, 'fontweight','bold')
 
 %%
 
@@ -1467,8 +1482,9 @@ nexttile
 
 
 boxplot(SEQ_S,'Colors',colors)
-title('Structural')
+title('Structural', 'fontweight','normal')
 ylabel("Coefficient of Determination")
+ set(gca,'FontSize',14)
 
 nexttile
 
@@ -1491,27 +1507,30 @@ yt = get(gca, 'YTick');
 
 axis([xlim    -0.15  max(yt)*1.6])
 xt = get(gca, 'XTick');
-%%
+%
 [P,H,STATS] = ranksum(F_conn_SEQ(:),SEQ_F(:, 2)) 
  plot(xt([1 2]), [1 1]*max(yt)*1, '-k',  mean(xt([1 2]))+0.03, max(yt)*1.05, '*k')
 
-%% y
+% y
 [P,H,STATS] = ranksum(F_conn_SEQ(:),SEQ_F(:, 3)) 
  plot(xt([1 3]), [1 1]*max(yt)*1.1, '-k',  mean(xt([1 3]))+0.03, max(yt)*1.15, '*k')
-title('Functional')
-%%
+title('Functional', 'fontweight','normal')
+%
+ set(gca,'FontSize',14)
 
 nexttile
 
 
 
 boxplot(SEQ_C,'Colors',colors)
-title('Combined')
+title('Combined', 'fontweight','normal')
     
 
 boxes = findobj(gca, 'Tag', 'Box');
 legend(boxes([end 5 4 3 2 1]),'Raw connectivity', 'Global', 'Edge', 'Node', 'Local', 'Global and local','location', 'northeastoutside')
-title(tcl,'Sequence Processing')
+ set(gca,'FontSize',14)
+
+title(tcl,'Sequence Processing',  'fontsize', 15, 'fontweight','bold')
 
 
 %%
